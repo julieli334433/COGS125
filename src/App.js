@@ -19,7 +19,24 @@ function App() {
         </a>
       </header>
     </div>
+    
+  );
+}
+function MyButton() {
+  return (
+    <button>
+      Click Me
+    </button>
   );
 }
 
-export default App;
+export default function MyApp() {
+  return (
+    <div>
+      <h1>This is my website</h1>
+      <MyButton />
+    </div>
+  );
+}
+
+// export default App;
